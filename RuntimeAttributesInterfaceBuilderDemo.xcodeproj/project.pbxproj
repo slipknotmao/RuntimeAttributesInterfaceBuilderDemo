@@ -14,6 +14,8 @@
 		21E981941B45128E00A6D882 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E981931B45128E00A6D882 /* Images.xcassets */; };
 		21E981971B45128E00A6D882 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21E981951B45128E00A6D882 /* LaunchScreen.xib */; };
 		21E981A31B45128E00A6D882 /* RuntimeAttributesInterfaceBuilderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E981A21B45128E00A6D882 /* RuntimeAttributesInterfaceBuilderDemoTests.m */; };
+		21E981AE1B4516AB00A6D882 /* CALayer+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E981AD1B4516AB00A6D882 /* CALayer+Additions.m */; };
+		21E981B41B45287B00A6D882 /* RunTimeCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E981B31B45287B00A6D882 /* RunTimeCustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		21E9819C1B45128E00A6D882 /* RuntimeAttributesInterfaceBuilderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeAttributesInterfaceBuilderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E981A11B45128E00A6D882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21E981A21B45128E00A6D882 /* RuntimeAttributesInterfaceBuilderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeAttributesInterfaceBuilderDemoTests.m; sourceTree = "<group>"; };
+		21E981AC1B4516AB00A6D882 /* CALayer+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Additions.h"; sourceTree = "<group>"; };
+		21E981AD1B4516AB00A6D882 /* CALayer+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Additions.m"; sourceTree = "<group>"; };
+		21E981B21B45287B00A6D882 /* RunTimeCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTimeCustomView.h; sourceTree = "<group>"; };
+		21E981B31B45287B00A6D882 /* RunTimeCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTimeCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +91,14 @@
 				21E9818B1B45128E00A6D882 /* AppDelegate.m */,
 				21E9818D1B45128E00A6D882 /* ViewController.h */,
 				21E9818E1B45128E00A6D882 /* ViewController.m */,
+				21E981AC1B4516AB00A6D882 /* CALayer+Additions.h */,
+				21E981AD1B4516AB00A6D882 /* CALayer+Additions.m */,
 				21E981901B45128E00A6D882 /* Main.storyboard */,
 				21E981931B45128E00A6D882 /* Images.xcassets */,
 				21E981951B45128E00A6D882 /* LaunchScreen.xib */,
 				21E981861B45128E00A6D882 /* Supporting Files */,
+				21E981B21B45287B00A6D882 /* RunTimeCustomView.h */,
+				21E981B31B45287B00A6D882 /* RunTimeCustomView.m */,
 			);
 			path = RuntimeAttributesInterfaceBuilderDemo;
 			sourceTree = "<group>";
@@ -220,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				21E9818F1B45128E00A6D882 /* ViewController.m in Sources */,
+				21E981AE1B4516AB00A6D882 /* CALayer+Additions.m in Sources */,
 				21E9818C1B45128E00A6D882 /* AppDelegate.m in Sources */,
+				21E981B41B45287B00A6D882 /* RunTimeCustomView.m in Sources */,
 				21E981891B45128E00A6D882 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

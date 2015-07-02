@@ -10,6 +10,9 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IB_DESIGNABLE
+IBInspectable IBOutlet UIButton *buttonRunTime;
+
 @end
 
 @implementation ViewController
@@ -17,6 +20,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)touchDown:(id)sender {
+    //id value = [sender valueForKey:@"name"];
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    NSString *runtimeAttribute = [self.buttonRunTime.layer valueForKey:@"customName"];
+    NSLog(@"RunTimeAttribute = %@",runtimeAttribute);
 }
 
 - (void)didReceiveMemoryWarning {
