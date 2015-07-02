@@ -1,0 +1,2 @@
+# RuntimeAttributesInterfaceBuilderDemo
+RuntimeAttributes IB_DESIGNABLE IBInspectable 
